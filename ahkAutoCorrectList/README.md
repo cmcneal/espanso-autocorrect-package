@@ -10,9 +10,9 @@ A package to do auto correction of common English language mis-spellings. Adapte
 
 
 To convert an ahk hotkey list to espanso in Codium (VSCode)
-# First, move any trailing comments to the previous line
+1. First, move any trailing comments to the previous line
   - find: `^(.*)\s{1,}(;.*)$`
   - replace: `\t$2\n$1`
-# Second, setup the triggers
+2. Second, setup the triggers
   - find: `^:.{0,1}:(.*)::(.*)$`
   - replace: `\t- trigger: "$1"\n\t\treplace: "$2"\n`
