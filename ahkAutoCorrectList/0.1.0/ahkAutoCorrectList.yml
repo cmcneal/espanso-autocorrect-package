@@ -150,14 +150,12 @@ matches:
   - trigger: "definatly"
     replace: "definitely"
 
-  - trigger: "develope"
-    replace: "develop "
-
   - trigger: "dissapoint"
     replace: "disappoint"
 
   - trigger: "divsion"
     replace: "division"
+
   - trigger: "dcument"
     replace: "document"
 
@@ -595,9 +593,6 @@ matches:
 
   - trigger: "addoptive"
     replace: "adoptive"
-
-  - trigger: "addres"
-    replace: "address"
 
   - trigger: "addresable"
     replace: "addressable"
