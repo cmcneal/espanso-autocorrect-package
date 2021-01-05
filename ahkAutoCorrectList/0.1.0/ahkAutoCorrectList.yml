@@ -8270,9 +8270,6 @@ matches:
   - trigger: "nuturing"
     replace: "nurturing"
 
-  - trigger: "nver"
-    replace: "never"
-
   - trigger: "nwe"
     replace: "new"
 
