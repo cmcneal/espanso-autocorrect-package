@@ -2217,6 +2217,9 @@ matches:
   - trigger: "campains"
     replace: "campaigns"
 
+  - trigger: "cant"
+    replace: "can't"
+
   - trigger: "can't of"
     replace: "can't have"
 
@@ -2597,9 +2600,6 @@ matches:
 
   - trigger: "claimes"
     replace: "claims"
-
-  - trigger: "clas"
-    replace: "class"
 
   - trigger: "clasic"
     replace: "classic"
@@ -4754,9 +4754,6 @@ matches:
 
   - trigger: "enduce"
     replace: "induce"
-
-  - trigger: "ened"
-    replace: "need"
 
   - trigger: "enflamed"
     replace: "inflamed"
@@ -8265,6 +8262,9 @@ matches:
   - trigger: "nuturing"
     replace: "nurturing"
 
+  - trigger: "nver"
+    replace: "never"
+
   - trigger: "nwe"
     replace: "new"
 
@@ -9608,9 +9608,6 @@ matches:
 
   - trigger: "probelms"
     replace: "problems"
-
-  - trigger: "proccess"
-    replace: "process"
 
   - trigger: "proccessing"
     replace: "processing"
@@ -13284,6 +13281,9 @@ matches:
   - trigger: "wo'nt"
     replace: "won't"
 
+  - trigger: "wont"
+    replace: "won't"
+
   - trigger: "wohle"
     replace: "whole"
 
@@ -13454,4 +13454,3 @@ matches:
 
   - trigger: "zeebra"
     replace: "zebra"
-
