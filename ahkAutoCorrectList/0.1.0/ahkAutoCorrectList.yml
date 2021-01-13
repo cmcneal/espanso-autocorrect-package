@@ -204,6 +204,9 @@ matches:
   - trigger: "harasm"
     replace: "harassm"
 
+  - trigger: " im "
+    replace: " I'm "
+
   - trigger: "immitat"
     replace: "imitat"
 
@@ -212,9 +215,6 @@ matches:
 
   - trigger: "impliment"
     replace: "implement"
-
-  - trigger: "inlcud"
-    replace: "includ"
 
   - trigger: "indenpenden"
     replace: "independen"
@@ -309,6 +309,8 @@ matches:
   - trigger: "weild"
     replace: "wield"
 
+  - trigger: "caedon"
+    replace: "Caedon (is the best!!⚜❗)"
 
   # ;------------------------------------------------------------------------------
   # ; Word middles
@@ -771,9 +773,6 @@ matches:
   - trigger: "agianst"
     replace: "against"
 
-  - trigger: "agin"
-    replace: "again"
-
   - trigger: "aginst"
     replace: "against"
 
@@ -1002,9 +1001,6 @@ matches:
   - trigger: "alsation"
     replace: "Alsatian"
 
-  - trigger: "alse"
-    replace: "else"
-
   - trigger: "alsot"
     replace: "also"
 
@@ -1045,7 +1041,7 @@ matches:
     replace: "amateur"
 
   - trigger: "amature"
-    replace: "armature, amateur"
+    replace: "amateur"
 
   - trigger: "amde"
     replace: "made"
@@ -5196,9 +5192,6 @@ matches:
   - trigger: "experianced"
     replace: "experienced"
 
-  - trigger: "experienc"
-    replace: "experience"
-
   - trigger: "expiditions"
     replace: "expeditions"
 
@@ -6545,9 +6538,6 @@ matches:
 
   - trigger: "inclreased"
     replace: "increased"
-
-  - trigger: "includ"
-    replace: "include"
 
   - trigger: "includng"
     replace: "including"
@@ -8425,7 +8415,7 @@ matches:
     replace: "of its"
 
   - trigger: "oft he"
-    replace: "of the ; Could be legitimate in poetry, but more usually a typo."
+    replace: "of the"
 
   - trigger: "oftenly"
     replace: "often"
@@ -9052,7 +9042,7 @@ matches:
     replace: "phenomena"
 
   - trigger: "pheonix"
-    replace: "phoenix ; Not forcing caps, as it could be the bird"
+    replace: "phoenix"
 
   - trigger: "philipines"
     replace: "Philippines"
@@ -9632,9 +9622,6 @@ matches:
 
   - trigger: "proceedure"
     replace: "procedure"
-
-  - trigger: "proces"
-    replace: "process"
 
   - trigger: "processer"
     replace: "processor"
@@ -13161,9 +13148,6 @@ matches:
   - trigger: "wherre"
     replace: "where"
 
-  - trigger: "whic"
-    replace: "which"
-
   - trigger: "whicht he"
     replace: "which the"
 
@@ -13407,11 +13391,11 @@ matches:
   - trigger: "youare"
     replace: "you are"
 
-  - trigger: "your a"
-    replace: "you're a"
+  - trigger: "your a "
+    replace: "you're a "
 
-  - trigger: "your an"
-    replace: "you're an"
+  - trigger: "your an "
+    replace: "you're an "
 
   - trigger: "your her"
     replace: "you're her"
